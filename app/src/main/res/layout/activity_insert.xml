@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsertActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTxtCityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nev"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTxtCountryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Orszag"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTxtPopulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lakossag"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnAddCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Felvetel" />
+
+    <Button
+        android:id="@+id/btnBack_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vissza" />
+
+</LinearLayout>
